@@ -17,6 +17,7 @@
     "noEmit": false,
     "declaration": true,
     "declarationDir": "./types",
+    "outDir": "./types",
     "jsx": "preserve",
     "baseUrl": "..",
     "paths": {
