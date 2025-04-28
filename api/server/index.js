@@ -1,4 +1,5 @@
 require('dotenv').config();
+console.log('JWT_SECRET:', process.env.JWT_SECRET);
 const path = require('path');
 require('module-alias')({ base: path.resolve(__dirname, '..') });
 const cors = require('cors');
